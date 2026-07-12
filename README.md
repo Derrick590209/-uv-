@@ -61,7 +61,7 @@ C:\Users\USER
 # 執行
 
 ```bash
-uv init
+uv init --python 3.10
 ```
 
 變成：
@@ -87,7 +87,7 @@ my_project
 假設你輸入：
 
 ```bash
-uv venv --python 3.13
+uv venv 
 ```
 
 這時會發生一件事：
